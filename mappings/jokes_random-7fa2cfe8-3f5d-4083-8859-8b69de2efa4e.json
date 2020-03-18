@@ -1,0 +1,25 @@
+{
+  "id" : "7fa2cfe8-3f5d-4083-8859-8b69de2efa4e",
+  "name" : "jokes_random",
+  "request" : {
+    "urlPattern" : "/jokes/random\\?category=[A-Za-z]+",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"categories\":[\"career\"],\"created_at\":\"2020-01-05 13:42:19.104863\",\"icon_url\":\"https://assets.chucknorris.host/img/avatar/chuck-norris.png\",\"id\":\"3y7vnqsvtvuvvmhtuqjuma\",\"updated_at\":\"2020-01-05 13:42:19.104863\",\"url\":\"https://api.chucknorris.io/jokes/3y7vnqsvtvuvvmhtuqjuma\",\"value\":\"Chuck Norris' first job was as a paperboy. There were no survivors.\"}",
+    "headers" : {
+      "Date" : "Wed, 18 Mar 2020 12:39:44 GMT",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Set-Cookie" : "__cfduid=d2b4ea60e3e11e9620f0eb684a548ba9e1584535183; expires=Fri, 17-Apr-20 12:39:43 GMT; path=/; domain=.chucknorris.io; HttpOnly; SameSite=Lax",
+      "Via" : "1.1 vegur",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "575f04a31e54f774-GRU"
+    }
+  },
+  "uuid" : "7fa2cfe8-3f5d-4083-8859-8b69de2efa4e",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

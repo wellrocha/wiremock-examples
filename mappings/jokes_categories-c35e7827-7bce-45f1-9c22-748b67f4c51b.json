@@ -1,0 +1,25 @@
+{
+  "id" : "c35e7827-7bce-45f1-9c22-748b67f4c51b",
+  "name" : "jokes_categories",
+  "request" : {
+    "url" : "/jokes/categories",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[\"animal\",\"career\",\"celebrity\",\"dev\",\"explicit\",\"fashion\",\"food\",\"history\",\"money\",\"movie\",\"music\",\"political\",\"religion\",\"science\",\"sport\",\"travel\"]",
+    "headers" : {
+      "Date" : "Wed, 18 Mar 2020 12:42:39 GMT",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Set-Cookie" : "__cfduid=d3a84759c3e9855144beb907e8a9b1a521584535358; expires=Fri, 17-Apr-20 12:42:38 GMT; path=/; domain=.chucknorris.io; HttpOnly; SameSite=Lax",
+      "Via" : "1.1 vegur",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "575f08e53e33f774-GRU"
+    }
+  },
+  "uuid" : "c35e7827-7bce-45f1-9c22-748b67f4c51b",
+  "persistent" : true,
+  "insertionIndex" : 4
+}

@@ -1,0 +1,25 @@
+{
+  "id" : "389dd4a0-5501-422c-bc42-28838251c678",
+  "name" : "jokes_random",
+  "request" : {
+    "url" : "/jokes/random?category=idontknow",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 404,
+    "body" : "{\"timestamp\":\"2020-03-18T12:40:48.111Z\",\"status\":404,\"error\":\"Not Found\",\"message\":\"No jokes for category \\\"idontknow\\\" found.\",\"path\":\"/jokes/random\"}",
+    "headers" : {
+      "Date" : "Wed, 18 Mar 2020 12:40:48 GMT",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Set-Cookie" : "__cfduid=db7b7a2f985e57b7a8a344e7564c810131584535247; expires=Fri, 17-Apr-20 12:40:47 GMT; path=/; domain=.chucknorris.io; HttpOnly; SameSite=Lax",
+      "Via" : "1.1 vegur",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "575f062fd8e6f774-GRU"
+    }
+  },
+  "uuid" : "389dd4a0-5501-422c-bc42-28838251c678",
+  "persistent" : true,
+  "insertionIndex" : 3
+}

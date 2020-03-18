@@ -1,0 +1,25 @@
+{
+  "id" : "91c9ac26-437b-408d-bfa4-9ac69ff89e60",
+  "name" : "jokes_random",
+  "request" : {
+    "url" : "/jokes/random",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"categories\":[],\"created_at\":\"2020-01-05 13:42:20.841843\",\"icon_url\":\"https://assets.chucknorris.host/img/avatar/chuck-norris.png\",\"id\":\"mduNzdRBTbq8Z8DN72ZHtw\",\"updated_at\":\"2020-01-05 13:42:20.841843\",\"url\":\"https://api.chucknorris.io/jokes/mduNzdRBTbq8Z8DN72ZHtw\",\"value\":\"Chuck Norris doesnt Shit bricks, he shits full size buildings, hence the invention of the Pre-Fabricated homes.\"}",
+    "headers" : {
+      "Date" : "Wed, 18 Mar 2020 12:32:41 GMT",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "Set-Cookie" : "__cfduid=de35c06acf8548cb1ed1e279369d84b541584534760; expires=Fri, 17-Apr-20 12:32:40 GMT; path=/; domain=.chucknorris.io; HttpOnly; SameSite=Lax",
+      "Via" : "1.1 vegur",
+      "CF-Cache-Status" : "DYNAMIC",
+      "Expect-CT" : "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\"",
+      "Server" : "cloudflare",
+      "CF-RAY" : "575efa4d7eaef64b-GRU"
+    }
+  },
+  "uuid" : "91c9ac26-437b-408d-bfa4-9ac69ff89e60",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
