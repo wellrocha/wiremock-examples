@@ -1,0 +1,44 @@
+{
+  "id" : "3c806726-6f14-474f-b4e5-1d26ac81071a",
+  "name" : "ws",
+  "priority" : 1,
+  "request" : {
+    "url" : "/ws",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.cep == '')]",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    }, {
+      "contains" : "logradouro"
+    }, {
+      "contains" : "complemento"
+    }, {
+      "contains" : "bairro"
+    }, {
+      "contains" : "localidade"
+    }, {
+      "contains" : "uf"
+    }, {
+      "contains" : "unidade"
+    }, {
+      "contains" : "ibge"
+    }, {
+      "contains" : "gia"
+    } ]
+  },
+  "response" : {
+    "status" : 400,
+    "body" : "{\"timestamp\":\"2020-03-18T12:47:11.356Z\",\"status\":400,\"error\":\"Bad Request\",\"message\":\"cep does not be empty\"}",
+    "headers" : {
+      "Server" : "nginx/1.16.1",
+      "Date" : "Wed, 18 Mar 2020 21:24:57 GMT",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "ETag" : "\"5db6f899-1f7\"",
+      "Strict-Transport-Security" : "max-age=15768000"
+    }
+  },
+  "uuid" : "3c806726-6f14-474f-b4e5-1d26ac81071a",
+  "persistent" : true,
+  "insertionIndex" : 13
+}

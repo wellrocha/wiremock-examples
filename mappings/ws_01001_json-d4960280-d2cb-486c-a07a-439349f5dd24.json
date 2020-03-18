@@ -1,0 +1,22 @@
+{
+  "id" : "d4960280-d2cb-486c-a07a-439349f5dd24",
+  "name" : "ws_01001_json",
+  "request" : {
+    "urlPattern" : "/ws/.*/json/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 400,
+    "body" : "<!DOCTYPE HTML>\n<html lang=\"pt-br\">\n\n<head>\n  <title>ViaCEP 400</title>\n  <meta charset=\"utf-8\" />\n  <style type=\"text/css\">\n      h1 {\n          color: #666;\n          text-align: center;\n          font-size: 4em;\n      }\n      h2, h3 {\n          color: #777;\n          text-align: center;\n          font-size: 3em;\n      }\n      h3 {\n          font-size: 1.5em;\n      }\n  </style>\n</head>\n\n<body>\n    <h1>Erro 400</h1>\n    <h2>Ops!</h2>\n    <h3>Verifique a sua URL (Bad Request)</h3>\n</body>\n\n</html>\n",
+    "headers" : {
+      "Server" : "nginx/1.16.1",
+      "Date" : "Wed, 18 Mar 2020 18:52:58 GMT",
+      "Content-Type" : "text/html; charset=utf-8",
+      "ETag" : "\"5db6f899-1f7\"",
+      "Strict-Transport-Security" : "max-age=15768000"
+    }
+  },
+  "uuid" : "d4960280-d2cb-486c-a07a-439349f5dd24",
+  "persistent" : true,
+  "insertionIndex" : 10
+}

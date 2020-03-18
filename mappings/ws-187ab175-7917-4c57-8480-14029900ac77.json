@@ -1,0 +1,43 @@
+{
+  "id" : "187ab175-7917-4c57-8480-14029900ac77",
+  "name" : "ws",
+  "request" : {
+    "url" : "/ws",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "contains" : "cep",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    }, {
+      "contains" : "logradouro"
+    }, {
+      "contains" : "complemento"
+    }, {
+      "contains" : "bairro"
+    }, {
+      "contains" : "localidade"
+    }, {
+      "contains" : "uf"
+    }, {
+      "contains" : "unidade"
+    }, {
+      "contains" : "ibge"
+    }, {
+      "contains" : "gia"
+    } ]
+  },
+  "response" : {
+    "status" : 201,
+    "body" : "{\n\"id\": \"6cef2424-7c28-48e4-8d11-45e7e6ebf6b8\"\n}",
+    "headers" : {
+      "Server" : "nginx/1.16.1",
+      "Date" : "Wed, 18 Mar 2020 18:57:52 GMT",
+      "Content-Type" : "application/json;charset=UTF-8",
+      "ETag" : "\"5db6f899-1f7\"",
+      "Strict-Transport-Security" : "max-age=15768000"
+    }
+  },
+  "uuid" : "187ab175-7917-4c57-8480-14029900ac77",
+  "persistent" : true,
+  "insertionIndex" : 12
+}

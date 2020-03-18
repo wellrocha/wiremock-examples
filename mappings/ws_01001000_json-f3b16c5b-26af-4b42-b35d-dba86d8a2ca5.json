@@ -1,0 +1,24 @@
+{
+  "id" : "f3b16c5b-26af-4b42-b35d-dba86d8a2ca5",
+  "name" : "ws_01001000_json",
+  "priority": 1,
+  "request" : {
+    "urlPattern" : "/ws/\\d{8}/json/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\n  \"cep\": \"01001-000\",\n  \"logradouro\": \"Praça da Sé\",\n  \"complemento\": \"lado ímpar\",\n  \"bairro\": \"Sé\",\n  \"localidade\": \"São Paulo\",\n  \"uf\": \"SP\",\n  \"unidade\": \"\",\n  \"ibge\": \"3550308\",\n  \"gia\": \"1004\"\n}",
+    "headers" : {
+      "Server" : "nginx/1.16.1",
+      "Date" : "Wed, 18 Mar 2020 18:52:32 GMT",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Expires" : "Wed, 18 Mar 2020 19:52:32 GMT",
+      "Cache-Control" : [ "max-age=3600", "public" ],
+      "Pragma" : "public"
+    }
+  },
+  "uuid" : "f3b16c5b-26af-4b42-b35d-dba86d8a2ca5",
+  "persistent" : true,
+  "insertionIndex" : 9
+}
